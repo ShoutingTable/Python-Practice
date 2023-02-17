@@ -18,3 +18,25 @@
 # C, D, E = input("Enter three words: ").split()
 # F, G, H, I = input("Enter four words: ").split()
 # print(A, B, C, D, E, F, G, H, I)
+
+
+
+# CODECHEF EXAMPLE
+
+# t = int(input("Number of test cases: "))
+
+# for i in range(t):
+#     A, B = map(int, input("Enter two numbers: ").split())
+#     C, D, E = map(int, input("Enter three numbers: ").split())
+#     print(A, B, C, D, E)
+    
+
+
+# CODECHEF EXAMPLE
+
+t = int(input("Enter the number of test cases: "))
+
+for i in range(t):
+    A, B = map(int, input("Enter two numbers: ").split())
+    C = input("Enter a word: ")
+    print(A, B, C)
